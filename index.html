@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>How Not to Be Bored</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <header>
+        <h1>How Not to Be Bored</h1>
+    </header>
+    <main>
+        <div class="buttons">
+            <button id="fetchQuotes">Quotes</button>
+            <button id="fetchActivities">Activities</button>
+        </div>
+        <div class="container">
+            <div class="box" id="quotesBox">
+                <h2>Dubious Quotes</h2>
+                <ul id="quotesList"></ul>
+            </div>
+            <div class="box" id="activitiesBox">
+                <h2>Random Activities</h2>
+                <ul id="activitiesList"></ul>
+            </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
 </body>
 </html>
